@@ -1,0 +1,57 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./pngegg\ \(4\).png);
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-size:50%;
+    background-color: rgba(11, 11, 11, 0.1);
+}
+
+body h1 {
+    position: absolute;
+    right: 10%;
+    font-size: 2.5rem;
+}
+
+#selectCategory {
+    position: absolute;
+    right: 21.5%;
+    top: 11%;
+    width: 10%;
+}
+
+#randomBtn{
+    position: absolute;
+    right: 10%;
+    top: 11%;
+    width: 10%;
+}
+
+#categoryJokes {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #424633;
+    margin: 0 0px 10px 40px;
+    width: 10%;
+    border-radius: 4px;
+    padding: 5px 0px 5px 0;
+    color: #D04842;
+    font-weight: 900;
+}
+
+#jokes {
+    background-color: #5B95C1;
+    position: absolute;
+    top: 30%;
+    left: 23%;
+    width: 28%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+    display: none;
+}
